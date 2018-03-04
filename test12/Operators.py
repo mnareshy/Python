@@ -1,4 +1,5 @@
 # 1 + 2 = 3 , 1,2 are operands and + is operator
+from sqlite3.dbapi2 import Binary
 
 # Arithmetic Operators
 
@@ -53,7 +54,14 @@ print(f)
 
 # **************************************************************************************************
 
-# Bitwise Operators 
+# Binary Operators 
+
+b1 = int('00111100', 2)
+b2 = int('00011101', 2)
 
 
+
+print((b1 & b2).__format__("b"))
+
+print(bin(b2))
 
