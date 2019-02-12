@@ -4,7 +4,7 @@ from _ast import If
 
 x = "sairam"
 
-sys.stdout.write(x)
+
 
 
 

@@ -6,7 +6,7 @@ j = 13
 while(i < j):
     print("Enter a Mactcing number")
     j = int(input("Press Any Key"))
-    print("Entere9d a Mactcing number", j)
+    print("Entered a Mactcing number", j)
 else:
     print("While COndition Failed")   
     
